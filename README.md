@@ -9,7 +9,7 @@ Players can move, jump, and attack using keyboard controls. The game runs entire
 
 Play the game directly in your browser:
 
-▶ Play Clash Of Titans￼
+[▶ Play Clash Of Titans](https://maximpollak.github.io/ClashOfTitans/)
 
 ⸻
 
