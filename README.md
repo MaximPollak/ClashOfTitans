@@ -1,43 +1,51 @@
-# Clash of Titans
+# Clash Of Titans
 
-**Clash of Titans** is a 2-player browser-based game developed with HTML, CSS, and JavaScript.  
-Players can battle each other in dynamic combat using keyboard controls, with animations and interactive gameplay.
-
----
-
-## Technologies Used
-
-- JavaScript
-- HTML5 Canvas
-- CSS3
+**Clash Of Titans** is a 2-player browser-based fighting game developed for the Creative Code Lab projects.  
+Players can move, jump, and attack using keyboard controls.
 
 ---
 
-## Folder structure
+## Controls
+
+**Player 1**:  
+- W – Jump  
+- A – Move Left  
+- D – Move Right  
+- S – Attack  
+
+**Player 2**:  
+- Arrow Up – Jump  
+- Arrow Left – Move Left  
+- Arrow Right – Move Right  
+- Arrow Down – Attack  
+
+---
+
+## Folder Structure
 
 ClashOfTitans/
-├── css/                  # Stylesheets
+├── css/
 ├── images/
-│   ├── Sprites/          # Game images and sprites
-├── scripts/              # Main game JavaScript files
-│   ├── gameObjects/      # JavaScript classes for game objects
-│   ├── modules/          # JS modules and utilities
-├── index.html            # Game entry point
+│   ├── Sprites/
+│   ├── backgroundtest.png
+│   └── gameBackground.png
+├── scripts/
+│   ├── gameObjects/
+│   └── modules/
+├── index.html
 └── README.md
 
 ---
 
-## Run Locally (Live Server)
+## Live Demo
 
-1. Open the folder containing `index.html` in VS Code  
-2. Install **Live Server** extension if you haven’t already  
-3. Right-click `index.html` → *Open with Live Server*  
-4. The game will open in your default browser, ready for 2-player gameplay
-
-> Tip: Players can use the designated keyboard controls to play against each other.
+You can play the game directly in your browser:  
+[▶ Play Demo on GitHub Pages](https://maximpollak.github.io/ClashOfTitans/)
 
 ---
 
-## Author
+## How to Run Locally
 
-Maxim Pollák
+1. Clone the repository:
+```bash
+git clone https://github.com/MaximPollak/ClashOfTitans.git
