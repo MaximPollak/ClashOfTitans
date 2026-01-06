@@ -10,10 +10,10 @@ const player1SpriteSheet = {
   jump: new Image(),
   attack: new Image(),
 };
-player1SpriteSheet.idle.src = "../images/Sprites/Idle1.png";
-player1SpriteSheet.run.src = "../images/Sprites/Run1.png";
-player1SpriteSheet.jump.src = "../images/Sprites/Jump1.png";
-player1SpriteSheet.attack.src = "../images/Sprites/Attack1.png";
+player1SpriteSheet.idle.src   = "../../images/Sprites/Idle1.png";
+player1SpriteSheet.run.src    = "../../images/Sprites/Run1.png";
+player1SpriteSheet.jump.src   = "../../images/Sprites/Jump1.png";
+player1SpriteSheet.attack.src = "../../images/Sprites/Attack1.png";
 
 // Načítanie sprite sheetov pre Player 2
 const player2SpriteSheet = {
@@ -22,10 +22,10 @@ const player2SpriteSheet = {
   jump: new Image(),
   attack: new Image(),
 };
-player2SpriteSheet.idle.src = "../images/Sprites/Idle2.png";
-player2SpriteSheet.run.src = "../images/Sprites/Run2.png";
-player2SpriteSheet.jump.src = "../images/Sprites/Jump2.png";
-player2SpriteSheet.attack.src = "../images/Sprites/Attack2.png";
+player2SpriteSheet.idle.src   = "../../images/Sprites/Idle2.png";
+player2SpriteSheet.run.src    = "../../images/Sprites/Run2.png";
+player2SpriteSheet.jump.src   = "../../images/Sprites/Jump2.png";
+player2SpriteSheet.attack.src = "../../images/Sprites/Attack2.png";
 
 // Inicializácia hráčov s rôznymi sprite sheetmi
 const player1 = new Character(
