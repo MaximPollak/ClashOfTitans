@@ -39,8 +39,8 @@ export const global = {
 
   // Load background images
   loadBackgrounds() {
-    this.menuBackground.src = "../../images/backgroundtest.png";
-    this.gameBackground.src = "../../images/gameBackground.png";
+    this.menuBackground.src = "./images/backgroundtest.png";
+    this.gameBackground.src = "./images/gameBackground.png";
 
     // Set default background to menu
     this.menuBackground.onload = () => {
